@@ -26,8 +26,5 @@ const symbols = [
     box.className="item";
     box.innerHTML=shuf_symbols[i];
     document.querySelector(".game").appendChild(box);
-    let btn= document.querySelector(".btn");
- btn.addEventListener(click,()=>{
-    window.location.reload();
-    });
+  
   }
